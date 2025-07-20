@@ -1,21 +1,21 @@
 // Print a Pyramid Pattern with Spaces:
 // Input: 3
 
-// let n = 3;
-// for (let i = 1; i <= n; i++) {
-//     let space = '';
-//     let star = '';
+let n = 3;
+for (let i = 1; i <= n; i++) {
+    let space = '';
+    let star = '';
 
-//     for (let j = 0; j < n - i; j++) {
-//         space += ' ';
+    for (let j = 0; j < n - i; j++) {
+        space += ' ';
 
-//     }
-//     for (let k = 0; k < 2 * i - 1; k++) {
-//         star += '*';
-//     }
+    }
+    for (let k = 0; k < 2 * i - 1; k++) {
+        star += '*';
+    }
 
-//     console.log(space + star + space);
-// }
+    console.log(space + star + space);
+}
 
 
 
@@ -34,23 +34,23 @@
 
 
 
-// function BinaryDigits(i) {
-//     let count = { ones: 0, zeros: 0 };
+function BinaryDigits(i) {
+    let count = { ones: 0, zeros: 0 };
 
-//     for (let char of i) {
-//         if (char === '1') {
-//             count.ones++;
-//         } else if (char === '0') {
-//             count.zeros++;
-//         }
-//     }
+    for (let char of i) {
+        if (char === '1') {
+            count.ones++;
+        } else if (char === '0') {
+            count.zeros++;
+        }
+    }
 
-//     return count;
-// }
+    return count;
+}
 
-// let input = "101010110";
-// let output = BinaryDigits(input);
-// console.log(output);
+let input = "101010110";
+let output = BinaryDigits(input);
+console.log(output);
 
 
 
@@ -64,10 +64,10 @@
 // Output: ["101", "000", "111"]
 
 
-// let i = ["101", "101", "000", "111", "000"];
-// let uniqueBinary = [...new Set(i)];
+let i = ["101", "101", "000", "111", "000"];
+let uniqueBinary = [...new Set(i)];
 
-// console.log(uniqueBinary);
+console.log(uniqueBinary);
 
 
 
